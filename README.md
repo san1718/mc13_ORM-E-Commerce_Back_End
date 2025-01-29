@@ -1,5 +1,13 @@
 # ORM: E-Commerce Back End
 
+## Table of Contents
+* [Overview](#overview)
+* [Installation / Usage](#installation--usage)
+* [Technologies Used](#technologies-used)
+* [Links](#links)
+* [Summary](#summary)
+* [Screenshots](#screenshots)
+
 ## Overview
 The website will show an effective way to compete against other e-commerce websites that use the latest technologies.
 This will show a comprehensive backend solution for a better e-commerce platform for management.
