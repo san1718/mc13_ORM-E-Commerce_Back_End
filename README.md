@@ -1,6 +1,6 @@
 # ORM: E-Commerce Back End
 
-## Table of Contents
+## **Table of Contents**
 * [Overview](#overview)
 * [Installation / Usage](#installation--usage)
 * [Technologies Used](#technologies-used)
@@ -9,37 +9,49 @@
 * [Screenshots](#screenshots)
 
 ## Overview
-The website will show an effective way to compete against other e-commerce websites that use the latest technologies.
-This will show a comprehensive backend solution for a better e-commerce platform for management.
-The E-Commerce Backend will provide a better and efficient foundation for the platform.
+The **E-Commerce Back End** provides a robust and scalable solution for managing the backend of an e-commerce website. 
+This backend system leverages **Sequelize** with **PostgreSQL** to offer seamless data management for categories, products, and tags. 
+By using modern technologies such as **Node.js** and **Express.js**, this solution helps businesses compete in the fast-evolving e-commerce market, ensuring efficient handling of data while streamlining the management process.
 
-## Installation / Usage
-1. Install dependencies: 
-    * npm install
-2. Configure Environment Variables (.env file): 
-* Create a .env file in the root of the directory and add the PostgreSQL data:
-    * DB_NAME=ecommerce_db
-    * DB_USER=your_username
-    * DB_PASSWORD=your_password
-3. Create and Seed the Database:
-* Run the schema file to create the database and tables:
-    * psql -U your_username -d ecommerce_db -f db/schema.sql
-* Seed database:
-    * npm run seed
-4. Run the server:
-    * npm start
-5. Test:
-    * Use Insomnia or Postman for endpoint testing
+## **Installation / Usage**
+1. **Install dependencies:**
+    ```bash
+    npm install
+    ```
+2. **Configure Environment Variables (`.env` file):**
+* Create a `.env` file in the root of the directory and add the PostgreSQL data:
+    ```plaintext
+    DB_NAME=ecommerce_db
+    DB_USER=your_username
+    DB_PASSWORD=your_password
+    ```
+3. **Create and Seed the Database:**
+* Run the `schema` file to create the database and tables:
+    ```bash
+    psql -U your_username -d ecommerce_db -f db/schema.sql
+    ```
+* **Seed database:**
+    ```bash
+    npm run seed
+    ```
+4. **Run the server:**
+    ```bash
+    npm start
+    ```
+5. **Test:**
+    * Use **Insomnia** or **Postman** for endpoint testing
 
-## Technologies Used
-* Node.js
-* Express.js
-* Sequelize
-* PostreSQL
-* dotenv
-* Insomnia
+## **Technologies Used**
+### Back-End
+* **Node.js:** JavaScript runtime for building server-side applications.
+* **Express.js:** Web framework for Node.js, used for building the API.
+* **Sequelize:** ORM for managing the PostgreSQL database.
+* **PostgreSQL:** Relational database system for storing the e-commerce data.
+### Development Tools
+* **dotenv:** To manage environment variables securely.
+* **Insomnia / Postman:** Tools for API endpoint testing.
 
-## Links
+## **Links**
 [Home](https://github.com/san1718/mc13_ORM-E-Commerce_Back_End)
 <br />
 [Demo Category](https://drive.google.com/file/d/11GlZvCBoykpQBJKjM7i_62qgDpDg9CvZ/view?usp=drive_link)
@@ -49,7 +61,7 @@ The E-Commerce Backend will provide a better and efficient foundation for the pl
 [Demo Tag](https://drive.google.com/file/d/15-YZ-I6KfnX7UehWV_RlVcBhFm57NlwO/view?usp=sharing)
 
 ## Summary
-The E-Commerce Backend will show a solution to the problems of management for online store operations.
+The **E-Commerce Backend** provides a scalable and efficient solution for managing e-commerce data, including categories, products, and tags. Built with **Node.js**, **Express.js**, **Sequelize**, and **PostgreSQL**, this backend allows for easy management of product data and smooth integration with front-end platforms. With built-in features for creating, updating, and deleting records, it offers a solid foundation for online stores, ensuring quick, secure, and organized data handling.
 
-## Screenshots
+## **Screenshots**
 <img width="500" alt="Set" src="https://github.com/san1718/mc13_ORM-E-Commerce_Back_End/blob/main/images/set.png">
