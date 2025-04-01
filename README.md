@@ -14,6 +14,7 @@ This backend system leverages **Sequelize** with **PostgreSQL** to offer seamles
 By using modern technologies such as **Node.js** and **Express.js**, this solution helps businesses compete in the fast-evolving e-commerce market, ensuring efficient handling of data while streamlining the management process.
 
 ## **Installation / Usage**
+For local: 
 1. **Install dependencies:**
     ```bash
     npm install
